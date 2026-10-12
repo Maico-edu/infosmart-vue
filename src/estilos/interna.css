@@ -1,17 +1,32 @@
-/* PÁGINAS INTERNAS: Serviços, Sobre e Contato */
+/* Páginas internas: Serviços, Sobre e Contato */
 .titulo-pag{padding:clamp(2.5rem,6vw,4.5rem) 0 2rem;border-bottom:1px solid var(--linha);background:radial-gradient(700px 300px at 90% 0,rgba(34,211,238,.1),transparent 60%)}
+
+/* Lista de serviços da loja*/
 .serv{display:grid;gap:0;margin-top:2rem}
 .serv-item{display:grid;grid-template-columns:70px 1fr auto;gap:1.5rem;align-items:center;padding:1.6rem 0;border-bottom:1px solid var(--linha)}
 .serv-item .n{color:var(--azul);font-weight:800;font-size:1.4rem}
 .serv-item p{color:var(--cinza);margin-top:.3rem;max-width:58ch}
+
+/* Aviso sobre informações que ainda faltam */
 .pendente{border:1px dashed var(--linha);border-radius:var(--raio);padding:1.4rem;margin-top:2rem;color:var(--cinza);font-size:.9rem}
+
+/* Conteúdo da página Sobre */
 .sobre{display:grid;grid-template-columns:1.2fr .8fr;gap:3rem;align-items:start;margin-top:2rem}
 .sobre p{color:var(--cinza);margin-bottom:1rem}
 .sobre img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--raio);border:1px solid var(--linha)}
+
+/* Informações e formas de contato */
 .contato{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem}
 .info{border:1px solid var(--linha);border-radius:var(--raio);padding:1.4rem;background:var(--bg2);margin-bottom:1rem}
 .info small{color:var(--ciano);font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.72rem}
 .info p{margin:.3rem 0 .8rem;color:var(--cinza)}
+
+/* Área do mapa */
 .mapa{border:1px solid var(--linha);border-radius:var(--raio);min-height:320px;overflow:hidden;display:grid;place-items:center;color:var(--cinza);text-align:center;padding:1rem}
 .mapa iframe{width:100%;height:100%;min-height:320px;border:0}
-@media(max-width:820px){.serv-item{grid-template-columns:1fr}.sobre,.contato{grid-template-columns:1fr}}
+
+/* Ajustes para telas menores */
+@media(max-width:820px){
+  .serv-item{grid-template-columns:1fr}
+  .sobre,.contato{grid-template-columns:1fr}
+}

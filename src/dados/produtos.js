@@ -9,9 +9,9 @@ export const categorias = [
   { id: 'acessorios', nome: 'Acessórios' }
 ]
 export const produtos = [
-  { categoria: 'notebooks', nome: 'Notebook — modelo a cadastrar', marca: 'Marca', info: 'Processador, memória e armazenamento a preencher.', imagem: '/imagens/loja/notebooks.jpg', exemplo: true },
+  { categoria: 'notebooks', nome: 'Notebook — modelo a cadastrar', marca: 'Marca', info: 'Processador, memória e armazenamento a preencher.', imagem: '', exemplo: true },
   { categoria: 'notebooks', nome: 'Notebook — modelo a cadastrar', marca: 'Marca', info: 'Informações do produto a preencher.', imagem: '', exemplo: true },
-  { categoria: 'gamer', nome: 'Notebook Gamer — modelo a cadastrar', marca: 'Marca', info: 'Placa de vídeo e especificações a preencher.', imagem: '/imagens/loja/gamer.jpg', exemplo: true },
+  { categoria: 'gamer', nome: 'Notebook Gamer — modelo a cadastrar', marca: 'Marca', info: 'Placa de vídeo e especificações a preencher.', imagem: '', exemplo: true },
   { categoria: 'gamer', nome: 'PC Gamer — configuração a cadastrar', marca: 'Montagem', info: 'Componentes a preencher.', imagem: '', exemplo: true },
   { categoria: 'celulares', nome: 'iPhone — modelo a cadastrar', marca: 'Apple', info: 'Modelo, capacidade e condição a preencher.', imagem: '', exemplo: true },
   { categoria: 'celulares', nome: 'Smartphone — modelo a cadastrar', marca: 'Marca', info: 'Informações do produto a preencher.', imagem: '', exemplo: true },
